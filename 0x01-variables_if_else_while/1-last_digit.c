@@ -8,7 +8,7 @@
  * this program prints "Programming is positive, zero, or negative
  * Return: 0
  */
-int main(v0id)
+int main(void)
 {
 int n;
 int l;
