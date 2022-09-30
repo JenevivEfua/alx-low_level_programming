@@ -11,7 +11,7 @@
  */
 int main(int argc, char *argv[])
 {
-	unsigned in i, sum, num;
+	unsigned int i, sum, num;
 
 	sum = 0
 
@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 	}
 	while (argc-- && argc > 0)
 	{
-		for (i = 0; argv[argc][i] != '\0'; i++
+		for (i = 0; argv[argc][i] != '\0'; i++)
 		{
 			if (!(isdigit(argv[argc][i])))
 			{
