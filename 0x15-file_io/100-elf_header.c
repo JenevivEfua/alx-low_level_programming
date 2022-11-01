@@ -163,7 +163,7 @@ void print_osabi(unsigned char *e_ident)
 			break;
 		case ELFOSABI_IRIX:
 			printf("UNIX - IRIX\n");
-			break
+			break;
 		case ELFOSABI_FREEBSD:
 			printf("UNIX - FreeBSD\n");
 			break;
@@ -250,7 +250,7 @@ void print_entry(unsigned long int e_entry, unsigned char *e_ident)
 
 /**
  * close_elf - Closes an ELF file.
- *@elf: The file descriptor of the ELF file.
+ * @elf: The file descriptor of the ELF file.
  *
  * Description: If the file cannot be closed - exit code 98.
  */
